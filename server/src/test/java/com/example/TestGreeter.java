@@ -17,6 +17,7 @@ public class TestGreeter {
     greeter = new Greeter();
   }
 
+  //This is to see if this is continues integration or not. 
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
